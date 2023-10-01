@@ -23,4 +23,4 @@ Cart Page
 ![Alt text](/screenshot/cartpage.png)
 
 Search Result 
-![Alt text](/screenshot/cartpage.png)
+![Alt text](/screenshot/searchresult.png)
