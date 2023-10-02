@@ -5,6 +5,7 @@ import  {FaShoppingCart, FaHome, FaStore,FaWarehouse, FaSearch, FaArrowRight} fr
 import Home from '../pages/Home'
 import {useDispatch, useSelector} from 'react-redux'
 import {add} from '../reducer/cartSlice'
+import CheckoutPage from '../pages/CheckoutPage'
 
 
 function Header() {
@@ -84,7 +85,7 @@ const textShorter = (text, maxLength)=>{
             </ul>
         </div>
         <div >
-            <Link to="/cart"><h2 className='text-white flex justify-center items-center gap-2 hover:text-orange-500 duration-300 ease-in-out'><FaShoppingCart/>Cart: {items.length}</h2></Link>
+            <Link to="/cart"><h2 className='text-white flex justify-center items-center gap-2 hover:text-orange-500 duration-300 ease-in-out'><FaShoppingCart/>Cart: { items.length}</h2></Link>
         </div>
         <div >
             <button className='text-white flex gap-2 justify-center items-center hover:text-orange-500 duration-300 ease-in-out'><FaArrowRight/>LogIn/SignUp</button>

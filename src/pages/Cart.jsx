@@ -20,6 +20,9 @@ function Cart() {
   if(items.length === 0){
     return <div className='text-2xl font-extrabold flex items-center justify-center w-full h-[90vh] border-solid border-2 border-black gap-3'><FaShoppingCart className='text-6xl'/><h1>Cart is Empty</h1></div>
   }
+
+ 
+
   return (
     <>
     <div className='w-full h-[100vh] border-solid border-2 border-black flex '>
@@ -52,7 +55,9 @@ function Cart() {
             },0)
             }</h1>
 
-       <Link to= "/checkoutpage">     <button
+       <Link to= "/checkoutpage"> 
+           <button
+           
              className='bg-orange-500 text-white w-full py-3 rounded-xl hover:bg-orange-700 hover:scale-105 font-bold text-lg duration-300 ease-in-out'>Checkout
              </button>
              </Link>
